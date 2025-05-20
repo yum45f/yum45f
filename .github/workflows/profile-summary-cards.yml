@@ -22,3 +22,5 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           UTC_OFFSET: 9
+          EXCLUDE: "tex"
+          AUTO_PUSH: true
